@@ -1,0 +1,665 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+nav{
+	width: 100%;
+	min-height: 100px;
+	background-color: #123df0;
+}
+
+#bt{
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: fixed;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	z-index: 80;
+	right: 0;
+	bottom: 0;
+}
+
+.bg{
+	width: 100%;
+	height: 710px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../images/v.jpg);
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bgmenu{
+	width: 29%;
+	height: 400px;
+	background-color:transparent;
+	margin: 170px 0 10px 100px;
+	float: left;
+}
+
+.menu{
+	width: 70%;
+	height: 50px;
+	background-color: rgba(1, 1, 1, 0.6);
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	float: left;
+}
+
+.menu:hover{
+	background-color:#323b43;
+	color: black;
+	transition:all 0.5s ease-in-out;
+}
+
+.satu{
+	width:85%; 
+}
+
+.dua{
+	width: 100%;
+}
+
+.right{
+	float: right;
+	margin-right: 60px;
+}
+
+.kutipan{
+	width: 27%;
+	height: 150px;
+	background-color: rgba(1, 1, 1, 0.6);
+	color: white;
+	border-radius: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 30px 25px 30px 25px;
+	margin:280px 60px 0 0;
+	float: right;
+}
+
+.kutipan:hover{
+	background-color:#323b43;
+	color: black;
+	transition:all 0.5s ease-in-out;
+}
+
+
+/*utama...*/
+.main{
+	width: 100%;
+	min-height: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+.about{
+	width: 100%;
+	height: 1000px;
+	background-color:#deecdf;/*rgb : rgb(222,236,223)*/
+}
+
+.deskripsi{
+	width: 100%;
+	height: 620px;
+	background-color:#deecdf;
+	float: left;
+}
+
+
+h1.judul1{
+	font-family: 'Jockey One', sans-serif;
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+	margin-bottom: -20px;
+	padding-top: 50px;
+}
+
+.ijo{
+	color: #43b481;
+}
+
+.biru{
+	color: #deecdf;
+}
+
+.tua{
+	color: #323b43;
+}
+
+
+.biodata{
+	width: 100%;
+	height: 500px;
+	background-color:#deecdf;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.cols-40{
+	width: 33%;
+	height: 400px;
+	background-color: transparent;
+	float: left;
+	margin-left: 150px;
+	margin-top: 40px;
+	padding:10px 20px;
+}
+
+
+.img-bio img{
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+	margin:0 30px;
+	margin-top: 10px;
+}
+
+.nama{
+	font-family: 'Jockey One', sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+
+.cols-60{
+	width: 40%;
+	height: 400px;
+	background-color: transparent;
+	float: left;
+	margin-left: -10px;
+	margin-top: 35px;
+	padding: 0 20px;		
+}
+
+.bawah{
+	width: 100%;
+	height: 30px;
+	background-color: transparent;
+	border-bottom: 4px solid #43b481;
+	margin-bottom: 30px;
+}
+
+.tanya{
+	font-family: 'Jockey One', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.jawab{
+	font-family: 'Jockey One', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: middle;
+    margin-left: 240px;
+    margin-top: -35px;
+
+}
+
+.tengah{
+	margin-left: 100px;
+	text-align: center;
+	position: center;
+}
+
+.study{
+	width: 100%;
+	height: 550px;
+	background-color:#323b43;/*rgb : rgb(50,59,67)*/
+	float: left;
+}
+
+.inti{
+	width: 99%;
+	height: 400px;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+
+.cols-30{
+	width: 33%;
+	height: 350px;
+	margin-top:30px;
+	margin-left: -5px;
+	float: left;
+}
+
+.tahun{
+	width: 100%;
+	height: 250px;
+	margin-left: 10px;
+	float: left;
+}
+
+.bulat{
+	width: 150px;
+	height: 150px;
+	border: 10px solid #43b481;
+	margin-top: 40px;
+	transform:rotate(45deg);
+}
+
+.lulus{
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Jockey One', sans-serif;
+	color: #deecdf;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	transform:rotate(-45deg);
+}
+
+.di{
+	text-align: center;
+	font-family: 'Jockey One', sans-serif;
+	font-size: 25px;
+	color: #deecdf;
+	margin-left: 10px;
+}
+
+.sekolah{
+	width: 100%;
+	height: 100px;
+	margin-left: 10px;
+	float: left;
+}
+
+.portfolio{
+	width: 100%;
+	height: 780px;
+	background-color: #43b481;/*rgb : rgb(67, 180, 129)*/
+	float: left;
+}
+
+.folio{
+	width: 100%;
+	height: 655px;
+	float: left;
+	margin-top: 20px;
+}
+
+.tempat{
+	width: 80%;
+	height: 270px;
+	float: left;
+	margin:10px 0 0 128px;
+}
+
+.ma{
+	margin-top: 50px;
+}
+
+.cols-3{
+	width: 30.5%;
+	height: 250px;
+	border:10px solid #deecdf;
+	margin-left: 10px;
+	float: left;
+}
+
+.cols-3 img{
+	width: 100%;
+	height: 250px;
+}
+
+.skill{
+	width: 100%;
+	height: 470px;
+	background-color: #323b43;
+	padding-bottom: 100px;
+	float: left;
+}
+
+.seratus{
+	width: 90%;
+	height: 30px;
+	background-color:rgba(0, 0, 0, 0.6);
+	margin-top: -10px;
+	margin-left: 20px;
+}
+
+.persen{
+	font-size: 18px;
+	font-family: 'Jockey One', sans-serif;
+	color: #deecdf;
+	margin-top:6px;
+	margin-right: 10px;
+}
+
+.skill1{
+	width: 100%;
+	height: 420px;
+	margin-top: 15px;
+	float:left;
+}
+
+.web{
+	width: 100%;
+	height: 75px;
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+.web h3{
+	font-size: 22px;
+	font-family: 'Jockey One', sans-serif;
+	color: #deecdf;
+	margin-left: 22px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.ht{
+	width: 80%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: right;
+	float: left;
+}
+
+.css3{
+	width: 75%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: right;
+	float: left;
+}
+
+.jq{
+	width: 10%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: right;
+	float: left;
+}
+
+.ph{
+	width: 25%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: right;
+	float: left;
+}
+
+.skill2{
+	width: 47.5%;
+	height: 350px;
+	margin-left: 20px;
+	margin-top: 30px;
+	float: left;
+}
+
+.destop{
+	width: 100%;
+	height: 75px;
+	margin-top: 10px;
+	margin-right : 15px;
+	float: right;
+}
+
+.destop h3{
+	font-size: 22px;
+	font-family: 'Jockey One', sans-serif;
+	color: #deecdf;
+	margin-right: 22px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.kiri{
+	float: left;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.kanan{
+	float: right;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.vb{
+	width: 40%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: left;
+	float: right;
+}
+
+.cs{
+	width: 20%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: left;
+	float: right;
+}
+
+.java{
+	width: 10%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: left;
+	float: right;
+}
+
+.ps{
+	width: 15%;
+	height: 30px;
+	background-color: #43b481;
+	text-align: left;
+	float: right;
+}
+
+.kontak{
+	width: 100%;
+	height: 780px;
+	background-color:#deecdf;
+	float: left;
+}
+
+.contact{
+	width: 98%;
+	height: 600px;
+	padding: 10px 13px;
+	margin-top: 10px;
+	float: left;
+}
+
+.cols-65{
+	width: 60%;
+	height: 570px;
+	margin-top: 50px;
+	margin-left: -20px;
+	float: left;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group input.form-control {
+	height: auto;
+}
+
+.form-group input, .form-group textarea {
+	padding: 20px;
+}
+
+.form-control {
+	color:  #323b43;
+	background-color: white;
+	display: block;
+	width: 80%;
+    height: 34px;
+    padding: 6px 12px;
+    margin: 10px 100px;
+    font-size: 19px;
+    border:none;	
+}
+
+.form-control:focus{ 	
+	outline: dashed #323b43;
+	background-color: transparent;
+	color: #323b43;
+}
+
+.form-control:hover{
+	outline:dashed #323b43; 
+	background-color:transparent;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-xl {
+    background-color: #323b43;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    margin: 0 20px;
+    float: right;
+}
+
+.btn-xl:hover{
+	background-color: transparent;
+	outline: dashed #323b43;
+	color: #323b43;
+	transition:.5s all ease-in-out;
+}
+
+
+textarea{
+	display: block;
+	width:100%;
+	margin:0px 0;
+	padding:10px;
+	min-height:200px;
+	max-width: 80%;
+	font-size:19px;
+	font-family: 'Jockey One', sans-serif;
+	border:none ;
+	outline:none;
+}
+
+textarea:focus{
+	color: #323b43;
+	outline: dashed #323b43; 
+	background-color: transparent;
+}
+
+textarea:hover{
+	outline:dashed #323b43; 
+	background-color:transparent;
+}
+
+.cols-35{
+	width: 37%;
+	height: 470px;
+	margin-top:80px;
+	margin-left: -10px;
+	float: left;
+}
+
+.sosial{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.icon{
+	width: 20%;
+	height: 70px;
+	float: left;
+}
+
+.icon img{
+	width: 30px;
+	height: 30px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+
+.ket{
+	width: 78%;
+	height: 70px;
+	background-color: #deecdf;
+	float: right;
+}
+.ket h3{
+	margin-top: 25px;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Jockey One', sans-serif;
+	color: #323b43; 
+}
+
+.ket a h3:hover{
+	color:white;
+	transition: 0.4s all ease-in-out;
+}
+
+.media{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+
+.tigasos{
+	width: 65%;
+	height: 100px;
+	margin-left: 140px;
+	float: left;
+}
+
+.sosmed{
+	width: 20%;
+	height: 100px;
+	margin-left: -3px;
+	float: left;
+}
+
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #323b43;
+	float: left;
+}
+
+footer h4{
+	font-size: 17px;
+	font-family: 'Jockey One', sans-serif;
+	color: #deecdf;
+	text-align: center;
+	margin-top: 32px;
+}
